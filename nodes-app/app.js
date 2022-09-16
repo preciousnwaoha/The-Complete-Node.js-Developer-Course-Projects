@@ -1,8 +1,19 @@
-const fs = require('fs')
+// Challenge: Define and use a function in a new file
+const getNotes = require('./notes.js');
 
-// fs.writeFileSync('notes.txt', 'My name is precious')
+const message = getNotes()
+
+console.log(message)
 
 
-// Challenge: Append a message to noted.txt
 
-fs.appendFileSync('notes.txt', "\nI'm about to be a Certified Fullstack Dev!")
+
+
+
+
+/* LESSON */
+// const add = require('./utils.js')
+
+// const sum = add(13, 14)
+
+// console.log(sum)
