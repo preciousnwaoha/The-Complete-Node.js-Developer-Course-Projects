@@ -1,21 +1,4 @@
-const validator = require('validator')
-const getNotes = require('./notes.js')
+// Challenge: Use the chalk library in your project
+const chalk = require('chalk')
 
-const message = getNotes()
-
-console.log(message)
-
-console.log(validator.isURL('guidetophone.com'))
-
-
-
-
-
-
-
-/* LESSON */
-// const add = require('./utils.js')
-
-// const sum = add(13, 14)
-
-// console.log(sum)
+console.log(chalk.green('Success!'))
