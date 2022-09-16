@@ -1,9 +1,11 @@
-// Challenge: Define and use a function in a new file
-const getNotes = require('./notes.js');
+const validator = require('validator')
+const getNotes = require('./notes.js')
 
 const message = getNotes()
 
 console.log(message)
+
+console.log(validator.isURL('guidetophone.com'))
 
 
 
